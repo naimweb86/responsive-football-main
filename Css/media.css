@@ -9,6 +9,7 @@
     .top-section{
         width: 100%;
         padding:50px 0;
+        background-color: #2D25A0;
         overflow: hidden;
         
     }
@@ -68,6 +69,7 @@
     grid-row-gap: 30px;
     justify-content: center;
     align-content: center;
+    margin-bottom: 50px;
 
 }
 .player{
@@ -97,4 +99,39 @@
     color: #6C6C6C;
 
 }
+/* bottom section start */
+
+    .bottoms{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 70px;
+        flex-wrap: wrap;
+    }
+    .bottm-collam2 img{
+        width: 300px;
+        padding: 30px;
+    }
+    
+    .bottoms .bottom-collam2{
+        
+    }
+    .bottoms .bottom-collam1 h1{
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+    }
+    .bottoms .bottom-collam1 p{
+        width: 329px;
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 50px;
+    }
+    .bottoms .bottom-collam1{
+        padding-left: 30px;
+    }
+
+    .footer-logo img{
+        width: 150px;
 }
