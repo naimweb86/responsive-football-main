@@ -1,0 +1,42 @@
+body{
+    font-family: 'Lato', sans-serif;
+    
+    margin: 0;
+    
+}
+main{  
+     
+}
+.top-section{ 
+    padding:100px 0;
+    background-color: #2D25A0;
+}
+.collams{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+
+}
+.collam-1{
+
+}
+.collam-1 h1{
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+}
+.collams .collam-1 a{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding:10px 25px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.collam-2 img{
+    width: 556px;
+    margin-left: 150px;
+        
+}
