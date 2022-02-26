@@ -12,19 +12,22 @@ main{
     background-color: #2D25A0;
 }
 .collams{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;  
     align-items: center;
+    justify-items: center;
 
 }
 .collam-1{
-
+    margin-left: 150px;
 }
 .collam-1 h1{
     color: white;
     font-size: 64px;
     font-weight: 700;
     line-height: 80px;
+    
 }
 .collams .collam-1 a{
     text-decoration: none;
@@ -35,9 +38,13 @@ main{
     font-size: 16px;
     font-weight: 500;
 }
+.collam-2{
+    margin-right: 150px;
+}
 .collam-2 img{
     width: 556px;
-    margin-left: 150px;
+    margin-left: ;
+    align-items: center;
         
 }
 /* top-section end */
