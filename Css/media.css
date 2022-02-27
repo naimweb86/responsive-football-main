@@ -6,6 +6,9 @@
         
         
     }
+    header{
+        display: none;
+    }
     .top-section{
         width: 100%;
         padding:50px 0;

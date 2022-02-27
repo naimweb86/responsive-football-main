@@ -4,6 +4,38 @@ body{
     margin: 0;
     
 }
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #2D25A0;
+    padding: 20px 0px;
+    
+    
+
+}
+header div ul{
+    display: flex;
+    
+}
+header div ul li{
+    list-style: none;
+    padding-left: 20px;
+}
+header div ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+header div ul li a:hover{
+    color:  white;
+    background-color: #E02C6D ;;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
 main{  
      
 }
@@ -158,7 +190,7 @@ main{
     align-items: center ;
 }
 .footer-icon .fab:hover{
-    color: #10437A;
+    color: #E02C6D;
 }
 .Copyright{
     font-size: 18px;
