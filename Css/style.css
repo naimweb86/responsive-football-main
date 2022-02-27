@@ -4,6 +4,8 @@ body{
     margin: 0;
     
 }
+
+/* header start */
 header{
     display: flex;
     align-items: center;
@@ -11,9 +13,6 @@ header{
     align-content: center;
     background-color: #2D25A0;
     padding: 20px 0px;
-    
-    
-
 }
 header div ul{
     display: flex;
@@ -34,11 +33,7 @@ header div ul li a:hover{
     padding: 5px;
     border-radius: 5px;
 }
-
-
-main{  
-     
-}
+/* haader end */
 .top-section{ 
     padding:100px 0;
     background-color: #2D25A0;
@@ -49,7 +44,6 @@ main{
     justify-content: center;  
     align-items: center;
     justify-items: center;
-
 }
 .collam-1{
     margin-left: 150px;
@@ -87,7 +81,6 @@ main{
     width: 556px;
     margin-left: ;
     align-items: center;
-        
 }
 /* top-section end */
 
@@ -97,11 +90,7 @@ main{
     align-items: center;
     justify-content: center;
     align-content: center;
-    margin: 50px 0;
-    
-    
-
-   
+    margin: 50px 0;  
 }
 .playars{
     
@@ -140,10 +129,83 @@ main{
 }
 /* section2 end */
 
+/* REVEW SECTON START */
+/* .fans-revews{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    row-gap: 50px;
+    
+} */
+.fans-revews{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-column-gap: 50px;
+    
+}
+.testmonial h1{
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+}
+.testmonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.revew{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    width: 550px;
+    background-color: white;
+    box-shadow: 5px 10px 30px 5px rgba(0, 0, 0, 0.171);
+    padding: 30px;
+}
+.revew-img img{
+    width: 100px;
+}
+.revew-name{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+.name h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #111111;
+}
+.name h4{
+    font-size: 14px;
+    line-height: 24px;
+    color: #11111193;
+
+    margin-top: 0px;
+}
+.revew-text p{
+    width: 413px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.revew-star{
+    color: orange;
+}
+
+/* REVEW SECTON END */
+
 /* bottom section start */
 .bottom-section{
     padding: 70px;
-
 }
 .bottoms{
     display: flex;
@@ -166,6 +228,9 @@ main{
     line-height: 28px;
     margin-bottom: 40px;
 }
+/* bottom section end */
+
+
 /* footer start */
 .fotter-section{
     display: flex;
@@ -198,3 +263,4 @@ main{
     line-height: 24px;
     align
 }
+/* footer end */
